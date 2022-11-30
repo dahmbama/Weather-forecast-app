@@ -1,0 +1,40 @@
+.weather-icon {
+    width: 3vw;
+}
+.sidebarr {
+    font-size: large;
+    padding-top: 100vw;
+}
+.nav-icon {
+    width: 3vw;
+    margin-right: 1vw;
+}
+
+.navlink.active {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    color: aliceblue;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
