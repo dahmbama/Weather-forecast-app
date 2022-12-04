@@ -15,11 +15,12 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-2 px-1 bg-light position-fixed" id="sticky-sidebar">
-
-                <a href="/" class="nav-header">
+                <div class="nav-header">
+                <a href="/">
                     <img src="/images/weather.svg" alt="" class="weather-icon">
-                    <span class="sidebarr">Sidebar</span>
+                    <span class="sidebar">Weather Forecast</span>
                 </a>
+                </div>
                 <hr>
                 <div class="nav flex-column flex-nowrap vh-100 overflow-auto text-white p-2">
                     <ul class="nav nav-pills flex-column mb-auto">
@@ -41,11 +42,27 @@
                                         class="nav-icon">Account</a>
                             </span>
                         </li>
+                        <li class="nav-item">
+                            <span>
+                                <a href="./" class="nav-link"><img src="/images/settings.svg" alt=""
+                                        class="nav-icon">Settings</a>
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

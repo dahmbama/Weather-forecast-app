@@ -1,19 +1,26 @@
 .weather-icon {
     width: 3vw;
 }
-.sidebarr {
+.sidebar {
     font-size: large;
-    padding-top: 100vw;
+    margin-top: 100%;
+}
+.nav-header {
+    margin: 5%;
 }
 .nav-icon {
-    width: 3vw;
-    margin-right: 1vw;
+    width: 12%;
+    margin-right: 10%;
 }
-
-.navlink.active {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-    color: aliceblue;
+.nav-pills {
+    margin: 0;
+}
+.nav-pills .nav-link.active {
+    background-color: mediumpurple;
+}
+.nav-item {
+    margin: 5% 0% 5% 0%; 
+    width: 100%;
 }
 
 a:link {
@@ -26,13 +33,6 @@ a:visited {
     text-decoration: none;
     color: black;
 }
-
-
-a:hover {
-    text-decoration: none;
-    color: black;
-}
-
 
 a:active {
     text-decoration: none;
