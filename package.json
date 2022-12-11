@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.3"
-  }
+    "bootstrap": "^5.2.3",
+    "chokidar": "^3.5.3",
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "weather-forecast-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahmbama/Weather-forecast-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dahmbama/Weather-forecast-app/issues"
+  },
+  "homepage": "https://github.com/dahmbama/Weather-forecast-app#readme"
 }

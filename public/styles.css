@@ -1,0 +1,73 @@
+body {
+    background-image: url('v960-ning-32.jpg');
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.weather-icon {
+    width: 3vw;
+}
+.sidebar {
+    font-size: large;
+    margin-top: 100%;
+}
+.nav-header {
+    margin: 5%;
+}
+.nav-icon {
+    width: 12%;
+    margin-right: 10%;
+}
+.nav-pills {
+    margin: 0;
+}
+
+.nav-item {
+    margin: 5% 0% 5% 0%; 
+    width: 100%;
+}
+#search_bar {
+    width:50% !important;
+}
+#search_div {
+    justify-content: center !important;
+    justify-items: center !important;
+}
+#search_div {
+    padding-top: 1% !important;
+    padding-right: 1% !important;
+}
+#result {
+    border-radius: 0px 0px auto auto !important;
+}
+.card_div {
+    width: 6%;
+    margin: 1.5%;
+}
+.weather_card_text {
+    text-align: center;
+}
+#day_weather > .row {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
